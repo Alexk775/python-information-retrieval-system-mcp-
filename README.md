@@ -54,7 +54,3 @@ Example:
 ```bash
 python mcp_server.py
 
-Notes
-
-This project was developed as a learning and experimental system exploring how modern search and retrieval pipelines work in AI-driven applications.
-
