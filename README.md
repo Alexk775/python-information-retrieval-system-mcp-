@@ -31,13 +31,18 @@ The system integrates multiple engines:
 - Semantic-style re-ranking
 
 ## Project Structure
-├── mcp_server.py # Main server entry point
-├── mcp_local.py # Local execution mode
-├── http_facade.py # HTTP interface layer
-├── adapter_stdio.py # I/O adapter layer
-├── engines/ # Retrieval engines (TF-IDF, fuzzy, etc.)
-├── utils/ # Helper functions
-└── experiments/ # Alternative server versions
+
+```text
+.
+├── demos/
+├── experiments/
+├── helpers/
+├── .gitignore
+├── README.md
+├── adapter_stdio.py
+├── http_facade.py
+├── mcp_local.py
+└── mcp_server.py
   
 
 ## Technologies
@@ -53,4 +58,11 @@ Example:
 
 ```bash
 python mcp_server.py
+```markdown
+
+## Example Use Cases
+
+- Running local retrieval tests
+- Evaluating ranking behavior across different query strategies
+- Experimenting with fuzzy, lexical, and semantic-style retrieval pipelines
 
